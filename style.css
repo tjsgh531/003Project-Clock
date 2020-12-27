@@ -7,7 +7,9 @@ html,body{
     height: 100%;
 }
 body{
-    background: linear-gradient(-135deg,black,gray);
+    --start:hsl(190,100%,70%);
+    --end:hsl(310,100%,90%);
+    background: linear-gradient(45deg,var(--start),var(--end));
     display: flex;
     align-items: center;
     justify-content: center;
